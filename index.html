@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Niraj Chaudhary</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo" onclick="location.href='#home'">Niraj Chaudhary</div>
+    <div class="nav-toggle">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <label class="switch">
+        <input type="checkbox" id="mode-switch" onchange="toggleDarkMode()">
+        <span class="slider"></span>
+      </label>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo" onclick="location.href='#home'">Niraj Chaudhary</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        <li>
+          <label class="switch">
+            <input type="checkbox" id="mode-switch" onchange="toggleDarkMode()">
+            <span class="slider"></span>
+          </label>
+        </li>
+      </div>
+    </div>
+  </nav>
+
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="assets/profile-pic.jpg" alt="Niraj Chaudhary profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Niraj Kumar Chaudhary</h1>
+      <p class="section__text__p2">Software Engineer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-1" onclick="window.open('assets/cv.pdf')">Download Resume</button>
+        <button class="btn btn-color-2" onclick="location.href='#contact'">Contact Info</button>
+      </div>
+      <div id="socials-container">
+        <img src="assets/linkedin.png" alt="LinkedIn" class="icon"
+          onclick="window.open('https://linkedin.com/in/iamniraj222')" />
+        <img src="assets/github.png" alt="Github" class="icon"
+          onclick="window.open('https://github.com/iamniraj222')" />
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="assets/about-pic.jpg" alt="About picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container education">
+            <h3>Education</h3>
+            <p>B.Tech in Computer Science Jain University</p>
+            <p>Plus Two (Nepal Examination Board) Pentagon International College</p>
+            <p>Tenth Kalpavriksha English Boarding School Nepal</p>
+          </div>
+          <div class="details-container certifications">
+            <h3>Certifications</h3>
+            <div class="certifications-content">
+              <p>Programming using Java (Infosys)</p>
+              <p>Data Structures & Algorithms (Udemy)</p>
+              <p>C++ Course: Learn the Essentials (Scaler Topics)</p>
+              <p>Postman API Fundamentals (Postman)</p>
+              <p>Career Essentials in Generative AI (Microsoft & LinkedIn)</p>
+            </div>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            I am a Computer Science graduate from Jain (Deemed-to-be University), with a strong foundation in Java
+            development and a passion for building robust, scalable software solutions. I am excited to begin my
+            professional journey as a Java Developer at Capgemini, where I look forward to applying my skills in
+            real-world enterprise projects.
+
+            Throughout my academic and professional experiences, I have focused on strengthening my backend development
+            skills, particularly in Java. I have completed certifications in Java programming, data structures, and
+            object-oriented design principles, which have helped me build a strong understanding of software development
+            best practices.
+
+            I have also worked as a web developer at two companies, gaining practical experience in developing and
+            testing applications using tools and technologies such as Java, Postman, API testing, MySQL, and Spring
+            Boot. These roles allowed me to contribute to the end-to-end development lifecycle of various projects,
+            improving both technical and collaborative skills by working closely with cross-functional teams and
+            clients.
+
+            I am committed to continuous learning and excited to grow as a software engineer in the fast-paced tech
+            industry.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Professional Experience</h2>
+          <div class="article-container">
+            <article>
+              <img src="assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Java Developer Intern, CodeClause</h3>
+                <p>Built email client software, event management system, and weather app using Java and API integration.
+                </p>
+              </div>
+            </article>
+            <article>
+              <img src="assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Full Stack Developer, Bharat Intern</h3>
+                <p>Developed a portfolio website and a temperature converter, showcasing full stack skills.</p>
+              </div>
+            </article>
+            <article>
+              <img src="assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Web Developer, Sapience InterGlobe</h3>
+                <p>Enhanced an Employee Information Tracking System using HTML, CSS, and JavaScript.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Technical Skills</h2>
+          <div class="article-container">
+            <article>
+              <img src="assets/checkmark.png" alt="Skill icon" class="icon" />
+              <div>
+                <h3>Languages</h3>
+                <p>Java, C++, C, HTML, CSS, JavaScript, Python, PHP</p>
+              </div>
+            </article>
+            <article>
+              <img src="assets/checkmark.png" alt="Skill icon" class="icon" />
+              <div>
+                <h3>Technologies</h3>
+                <p>MySQL, MongoDB, Git, GitHub, WordPress, MS Excel</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="assets/project-1.png" alt="Sensitive Content Filtering" class="project-img" />
+          </div>
+          <h2 class="project-title">Sensitive Content Filtering in Messaging App</h2>
+          <p>Developed a messaging app feature with 95% accuracy using NLP and ML algorithms.</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/iamniraj222')">Github</button>
+            <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/iamniraj222')">Live
+              Demo</button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="assets/project-2.png" alt="Telemedicine Platform" class="project-img" />
+          </div>
+          <h2 class="project-title">Telemedicine Platform Database Design</h2>
+          <p>Designed a secure database, improving patient record retrieval by 25%.</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/iamniraj222')">Github</button>
+            <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/iamniraj222')">Live
+              Demo</button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="assets/project-3.png" alt="Snake Game" class="project-img" />
+          </div>
+          <h2 class="project-title">Snake Game using Java</h2>
+          <p>Built an interactive game with optimized Java code, improving performance by 30%.</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/iamniraj222')">Github</button>
+            <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/iamniraj222')">Live
+              Demo</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-container">
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+          <p><a href="mailto:mail@nirajkchaudhary.com.np">mail@nirajkchaudhary.com.np</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+          <p><a href="https://linkedin.com/in/iamniraj222">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="assets/github.png" alt="Github icon" class="icon contact-icon" />
+          <p><a href="https://github.com/iamniraj222">Github</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="assets/facebook.png" alt="Facebook icon" class="icon contact-icon" />
+          <p><a href="https://facebook.com/iamniraj222">Facebook</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="assets/instagram.png" alt="Instagram icon" class="icon contact-icon" />
+          <p><a href="https://instagram.com/iamniraj222">Instagram</a></p>
+        </div>
+      </div>
+      <div class="contact-form">
+        <form action="https://formspree.io/f/mail@nirajkchaudhary.com.np" method="POST">
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit" class="btn btn-color-2">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <nav>
+      <div class="nav-links">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p class="copyright">Copyright © 2025 Niraj Kumar Chaudhary. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
