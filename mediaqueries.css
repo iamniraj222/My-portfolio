@@ -1,7 +1,7 @@
 @media screen and (max-width: 1400px) {
   #profile {
     height: auto;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     flex-direction: column;
   }
 
@@ -16,37 +16,38 @@
   }
 
   section {
-    padding: 4rem 5rem;
-    margin: 2rem 0;
+    padding: 3rem 2rem;
+    margin: 1.5rem 0;
   }
 
   .section__pic-container.about-pic-container {
-    width: 400px;
-    height: 500px;
+    width: 350px;
+    height: 450px;
   }
 
   .about-pic {
-    height: 500px;
+    height: 450px;
     object-fit: cover;
     object-position: top;
   }
 
   .about-details-container {
     max-width: 100%;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
   }
 
   .contact-container {
     flex-direction: column;
-    gap: 3rem;
+    gap: 2rem;
   }
 
   .contact-info-upper-container {
-    padding: 2.5rem;
+    padding: 1.5rem;
   }
 
   .contact-form {
     max-width: 100%;
+    padding: 1.5rem;
   }
 }
 
@@ -61,7 +62,7 @@
 
   #experience,
   .experience-details-container {
-    margin-top: 2rem;
+    margin-top: 1.5rem;
   }
 
   #profile,
@@ -76,14 +77,14 @@
   }
 
   section {
-    padding: 3rem 5%;
-    margin: 1.5rem 0;
+    padding: 2rem 1rem;
+    margin: 1rem 0;
   }
 
   .section__pic-container {
-    width: 300px;
-    height: 300px;
-    margin: 0 auto 2rem;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto 1.5rem;
   }
 
   .about-containers {
@@ -91,13 +92,13 @@
   }
 
   .section__pic-container.about-pic-container {
-    width: 350px;
-    height: 450px;
-    margin: 0 auto 2rem;
+    width: 300px;
+    height: 400px;
+    margin: 0 auto 1.5rem;
   }
 
   .about-pic {
-    height: 450px;
+    height: 400px;
     object-fit: cover;
     object-position: top;
   }
@@ -108,7 +109,8 @@
 
   .text-container p {
     text-align: justify;
-    padding: 0 1rem;
+    padding: 0 0.5rem;
+    font-size: 0.95rem;
   }
 
   #contact {
@@ -116,18 +118,18 @@
   }
 
   .contact-container {
-    gap: 2rem;
+    gap: 1.5rem;
   }
 
   .contact-info-upper-container {
     flex-direction: column;
-    padding: 2rem;
+    padding: 1rem;
+    min-height: 300px;
   }
 
   .contact-form {
-    margin-top: 2rem;
-    padding: 2rem;
-    max-width: 100%;
+    margin-top: 1rem;
+    padding: 1rem;
   }
 }
 
@@ -136,145 +138,162 @@
   #contact,
   footer {
     height: auto;
-    padding: 0.8rem 5%;
+    padding: 0.6rem 2%;
   }
 
   #profile {
     height: auto;
     margin-bottom: 0;
+    padding: 1rem 0;
   }
 
   article {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
     max-width: 100%;
+    padding: 1rem;
+    flex-direction: column;
+    text-align: center;
   }
 
   footer {
-    padding: 0.8rem 5%;
+    padding: 0.6rem 2%;
   }
 
   footer .footer-content {
-    padding: 0.6rem;
-    width: 100%;
-    margin: 0;
-    border-radius: 6px;
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    padding: 0.4rem;
+    border-radius: 4px;
   }
 
   footer nav {
-    margin-bottom: 0.3rem;
-    width: 100%;
+    margin-bottom: 0.2rem;
   }
 
   footer .nav-links {
     flex-direction: column;
-    gap: 0.4rem;
-    padding: 0;
-    text-align: center;
-    max-width: 100%;
-    overflow: hidden;
+    gap: 0.3rem;
+    font-size: 0.8rem;
   }
 
   footer a {
-    font-size: 0.85rem;
-    display: block;
-    padding: 0.2rem 0;
-    word-break: break-word;
-    color: #0056b3;
+    font-size: 0.8rem;
+    padding: 0.1rem 0;
   }
 
   .copyright {
-    font-size: 0.7rem;
-    margin-top: 0.3rem;
-    color: #222222;
+    font-size: 0.65rem;
+    margin-top: 0.2rem;
   }
 
   .about-containers,
   .contact-info-upper-container,
   .btn-container {
-    flex-wrap: wrap;
-    gap: 1.5rem;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
   }
 
   .contact-info-container {
-    margin: 0;
+    flex-direction: column;
+    gap: 0.5rem;
   }
 
   .contact-info-container p,
   .nav-links li a {
-    font-size: 0.95rem;
+    font-size: 0.85rem;
   }
 
   .experience-sub-title {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
 
   .logo {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   .nav-links {
-    flex-direction: column;
-    gap: 1rem;
-    text-align: center;
+    gap: 0.8rem;
   }
 
   .section__pic-container {
-    width: 80%;
+    width: 200px;
     height: auto;
-    max-width: 250px;
-    margin: 0 auto 1.5rem;
+    max-width: 100%;
+    margin: 0 auto 1rem;
+    border-radius: 20%;
   }
 
   .section__pic-container.about-pic-container {
     width: 100%;
-    height: 350px;
-    max-width: 300px;
-    margin: 0 auto 1.5rem;
+    height: 300px;
+    max-width: 250px;
+    margin: 0 auto 1rem;
   }
 
   .about-pic {
-    height: 350px;
+    height: 300px;
     object-fit: cover;
     object-position: top;
   }
 
   .section__text__p2 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 
   .title {
-    font-size: 2.3rem;
+    font-size: 2rem;
   }
 
   .text-container {
-    text-align: justify;
-    padding: 0 0.6rem;
+    padding: 0 0.3rem;
   }
 
   .text-container p {
-    font-size: 1rem;
-    line-height: 1.7;
+    font-size: 0.9rem;
   }
 
   .btn {
-    padding: 0.9rem 2.2rem;
+    padding: 0.7rem 1.5rem;
+    font-size: 0.9rem;
   }
 
   .contact-form {
-    padding: 1.5rem;
+    padding: 1rem;
+    min-height: 300px;
   }
 
   .contact-form input,
   .contact-form textarea {
-    font-size: 1rem;
-    padding: 0.9rem;
+    padding: 0.7rem;
+    font-size: 0.9rem;
   }
 
   .contact-form button {
-    padding: 0.9rem 2.2rem;
+    padding: 0.7rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  /* Optimize Education and Certifications */
+  .details-container {
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .education,
+  .certifications-content {
+    display: block;
+    width: 100%;
+  }
+
+  .education p,
+  .certifications-content p {
+    padding-left: 1.5rem;
+    margin-bottom: 0.8rem;
+    font-size: 0.85rem;
+  }
+
+  .education p::before,
+  .certifications-content p::before {
+    font-size: 1.2rem;
+    top: 0;
   }
 }
