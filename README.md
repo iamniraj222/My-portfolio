@@ -34,7 +34,7 @@ Alternatively, you can clone the repository and view the website locally by foll
 
 ## Contributing
 
-This personal portfolio website is currently not open for external contributions. However, suggestions and feedback are always welcome. If you have any ideas or suggestions for improvement, please feel free to reach out to me at jayniraj249@gmail.com.
+This personal portfolio website is currently not open for external contributions. However, suggestions and feedback are always welcome. If you have any ideas or suggestions for improvement, please feel free to reach out to me at mail@nirajkchaudhary.com.np.
 
 
 ## Acknowledgments
@@ -43,7 +43,7 @@ This personal portfolio website is currently not open for external contributions
 
 ## Contact
 
-If you have any questions or would like to connect, please feel free to reach out to me at [jayniarj249@gmail.com](mailto:jayniraj249@gmail.com)
+If you have any questions or would like to connect, please feel free to reach out to me at [mail@nirajkchaudhary.com.np](mailto:mail@nirajkchaudhary.com.np)
 
 
 
